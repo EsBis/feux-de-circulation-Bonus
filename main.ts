@@ -1,8 +1,3 @@
-/**
- * Pour faire le BONUS
- * 
- * Je replacerais le répéter 5 fois par appel Clignote+temps
- */
 function Jaune () {
     pins.digitalWritePin(DigitalPin.P0, 0)
     pins.digitalWritePin(DigitalPin.P1, 1)
@@ -25,6 +20,13 @@ function Vert () {
     pins.digitalWritePin(DigitalPin.P1, 0)
     pins.digitalWritePin(DigitalPin.P2, 0)
 }
+/**
+ * Pour faire le BONUS
+ * 
+ * Je replacerais le répéter 5 fois par appel Clignote+temps
+ * 
+ * Ou utiliser la boule For
+ */
 function Pieton () {
     Blanc()
     basic.pause(5000)
